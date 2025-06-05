@@ -21,3 +21,6 @@ Route::get('/getCategories', [ProductController::class, 'categoryIndex']);
 Route::post('/register', [AuthController::class, 'store']);
 
 
+
+
+
