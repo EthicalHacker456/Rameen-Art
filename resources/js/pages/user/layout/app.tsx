@@ -12,10 +12,10 @@ export default function NavLayout({ children }: PropsWithChildren) {
       <div className='bg-black min-h-screen'> 
 
        {/*Navbar Area  */}
-        <nav className='fixed w-full bg-black/30 backdrop-blur px-6 py-6'>
+        <nav className='fixed w-full bg-black/30 backdrop-blur px-6 py-6 z-20'>
 
             <div className='container flex justify-between items-center'>
-                <div className='text-2xl text-white'>Rameen Arts</div>
+                <div className='text-2xl text-white'>Reactor</div>
 
                 <ul className='flex space-x-10 items-center'>
                     <li>
@@ -47,7 +47,7 @@ export default function NavLayout({ children }: PropsWithChildren) {
         </nav>
         {/*Content Area  */}
         <div className='container pt-24'>
-            {children}
+            {children}  
         </div>
     </div>
     );
